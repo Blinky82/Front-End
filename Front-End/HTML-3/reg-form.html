@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+    <body>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+ <table style="width:50%">
+    <col width="200">
+    <col width="400">
+  <tr>
+    <th><strong>Last name</strong></th>
+    <td><input type="text" name="last_name" /></td>
+  </tr>
+  <tr>
+    <th><strong>First name</strong></th>
+    <td><input type="text" name="first_name" /></td>
+  </tr>
+<tr>
+    <th>Address</th>
+    <td><textarea rows="5" cols="50" name="address">
+</textarea></td>
+  </tr>
+<tr>
+    <th>City</th>
+    <td><input type="text" name="city_name" /> State <input type="text" name="state_name" /></td>
+  </tr>
+<tr>
+    <th>Zip/Postal Code</th>
+    <td><input type="text" name="zip_code" width="40%" /></td>
+  </tr>
+<tr>
+    <th>Country</th>
+    <td><form>
+<select name="dropdown">
+<option value="Bulgaria" selected>Bulgaria</option>
+<option value="USA">USA</option>
+<option value="Canada">Canada</option>
+<option value="Germany">Germany</option>
+</select>
+</form></td>
+  </tr>
+<tr>
+    <th>Phone(country code, area code, number)</th>
+    <td><form>
+<select name="dropdown">
+<option value="Bulgaria" selected>+359</option>
+<option value="USA">+01</option>
+<option value="Canada">+02</option>
+<option value="Germany">+045</option>
+</select><input type="text" name="area_code" /> <input type="text" name="number" />
+</form></td>
+  </tr>
+<tr>
+    <th>E-mail</th>
+    <td><input type="text" name="mail_id" /></td>
+  </tr>
+<tr>
+    <th>Birth date</th>
+    <td><input type="text" name="mail_id" value="&#1076;&#1076;. &#1084;&#1084;. &#1075;&#1075;&#1075;&#1075;."/></td>
+  </tr>
+<tr>
+    <th>General</th>
+    <td><form>
+<select name="dropdown">
+<option value="Maths" selected>Male</option>
+<option value="Physics">Female</option>
+</select>
+</form></td>
+  </tr>
+<tr>
+    <th>Starting date</th>
+    <td><form>
+<input type="radio" name="subject" value="maths"> Spring 2015
+<input type="radio" name="subject" value="physics"> Summer 2015
+</form></td>
+  </tr>
+<tr>
+    <th>Comments/Questions</th>
+    <td><textarea rows="5" cols="50" name="comments"></textarea></td>
+  </tr>
+<tr>
+    <td colspan="2" style="background-color:#1E90FF"><center><form>
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="reset"  value="Clear This Form" />
+</form></center></td>
+  </tr>
+</table> 
+
+    </body>
+
+</html>
